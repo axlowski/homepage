@@ -13,3 +13,30 @@ h2 {
 section {
   background: #cdc1f8;
 }
+
+.czerwony{
+    color: red;
+}
+
+#szkolenie{
+    background: yellow;
+}
+
+
+
+a {
+    color: green;
+}
+
+section a {
+    color: orange;
+}
+
+.my-article p {
+    background: #1460AA;
+    color: #fefefe;
+}
+
+#name{
+    color: red;
+}
