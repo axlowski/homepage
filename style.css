@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background: #fefefe;
 }
@@ -14,35 +25,39 @@ section {
   background: #cdc1f8;
 }
 
-.czerwony{
-    color: red;
+.czerwony {
+  color: red;
 }
 
-#szkolenie{
-    background: yellow;
+#szkolenie {
+  background: yellow;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 section a {
-    color: inherit;
+  color: inherit;
 }
 
 .my-article {
-    color: hotpink !important; 
+  color: hotpink !important;
+}
+
+section {
+  padding: 16px;
 }
 
 .my-article p {
-    background: #1460AA;
-    color: #fefefe;
+  background: #1460AA;
+  color: #fefefe;
 }
 
-#name{
-    color: red;
+#name {
+  color: red;
 }
 
-.about{
-    color: brown;
+.about {
+  color: brown;
 }
