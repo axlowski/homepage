@@ -11,17 +11,17 @@
 
 <body>
   <header>
-    <nav>
-      <a href="index.html">Strona główna</a>
-      <a href="nauka.html">Nauka</a>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Strona główna</a>
+      <a class="navigation__link" href="nauka.html">Nauka</a>
     </nav>
   </header>
   <main>
-    <header id="top">
-      <h1>Strona domowa</h1>
+    <header class="page-header" id="top">
+      <h1 class="page-header__heading page-header__heading--js">Strona domowa</h1>
     </header>
-    <section class="about">
-      <h2 class="czerwony">Kim jestem?</h2>
+    <section class="section">
+      <h2 class="section__header">Kim jestem????</h2>
       <p>
         PLorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Fusce ac interdum nibh, id pellentesque dui.
         Sed est nibh, <b>euismod</b> sagittis ex vel, <strong>consequat</strong> pulvinar ante. <em>Nulla
@@ -32,8 +32,8 @@
       </p>
       <p>Poczytaj <a href="#szkolenie">więcej</a></p>
     </section>
-    <section>
-      <h2>Notatki z WTF</h2>
+    <section class="section">
+      <h2 class="section__header">Notatki z WTF</h2>
       <img src="photo.jpg" alt="zdjęcie" />
       <article>
         <h3>Jak stworzyć prawidłowy HTML</h3>
@@ -84,7 +84,7 @@
     <p>Strona domowa &copy; 2023</p>
     <p><a href="#top">Do góry</a></p>
   </footer>
-  <script src="main.js"></script>
+  <script defer src="main.js"></script>
 </body>
 
 </html>

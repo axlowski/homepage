@@ -33,9 +33,6 @@ section {
   background: yellow;
 }
 
-a {
-  color: inherit;
-}
 
 section a {
   color: inherit;
@@ -60,4 +57,25 @@ section {
 
 .about {
   color: brown;
+}
+
+header {}
+
+.navigation {
+  padding: 16px;
+  background: blue;
+  color: white;
+}
+
+.navigation__link {
+  color: white;
+}
+
+.section {
+  background: #dcdcdc;
+  margin-bottom: 16px;
+}
+
+.section__header {
+  color: #126e7e;
 }
