@@ -29,7 +29,7 @@ section {
   color: red;
 }
 
-#szkolenie {
+#podstrona {
   background: yellow;
 }
 
@@ -38,7 +38,7 @@ section a {
   color: inherit;
 }
 
-.my-article {
+.article {
   color: hotpink !important;
 }
 
@@ -46,7 +46,7 @@ section {
   padding: 16px;
 }
 
-.my-article p {
+.article p {
   background: #1460AA;
   color: #fefefe;
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WTF: Co ten frontend??</title>
+  <title>WTF</title>
   <link href="normalize.css" rel="stylesheet" type="text/css">
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -13,7 +13,7 @@
   <header>
     <nav class="navigation">
       <a class="navigation__link" href="index.html">Strona główna</a>
-      <a class="navigation__link" href="nauka.html">Nauka</a>
+      <a class="navigation__link" href="podstrona.html">Podstrona</a>
     </nav>
   </header>
   <main>
@@ -21,24 +21,22 @@
       <h1 class="page-header__heading page-header__heading--js">Nagłówek strony</h1>
     </header>
     <section class="section">
-      <h2 class="section__header">Kim jestem????</h2>
+      <h2 class="section__header">Sekcja pierwsza</h2>
       <p>
-        PLorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Fusce ac interdum nibh, id pellentesque dui.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque dui.
         Sed est nibh, <b>euismod</b> sagittis ex vel, <strong>consequat</strong> pulvinar ante. <em>Nulla
-          scelerisque</em> nisl a mi semper
-        consequat. <i id="name" style="color:yellow">Morbi in tellus</i> ultricies, luctus ante non, egestas justo. Nunc
-        sit amet augue dolor. Donec
-        fermentum bibendum sollicitudin. Cras vel bibendum dui. <u>Donec</u> tincidunt aliquet accumsan.
+        scelerisque</em> nisl a mi semper consequat. Morbi in tellus ultricies, luctus ante non, egestas justo. Nunc
+        sit amet augue dolor. Donec fermentum bibendum sollicitudin. Cras vel bibendum dui. Donec tincidunt aliquet accumsan.
       </p>
-      <p>Poczytaj <a href="#szkolenie">więcej</a></p>
+      <p>Poczytaj <a href="#art4">więcej</a></p>
     </section>
     <section class="section">
-      <h2 class="section__header">Notatki z WTF</h2>
+      <h2 class="section__header">Sekcja druga</h2>
       <img src="photo.jpg" alt="zdjęcie" />
-      <article>
-        <h3>Jak stworzyć prawidłowy HTML</h3>
+      <article class="article">
+        <h3 class="article__header">Artykuł pierwszy</h3>
         <p class="czerwony">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
+          Treść artykułu pierwszego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
           dui. Sed est nibh, euismod sagittis ex vel, consequat pulvinar ante. Nulla scelerisque nisl a mi
           semper consequat. Morbi in tellus ultricies, luctus ante non, egestas justo. Nunc sit amet augue
           dolor. Donec fermentum bibendum sollicitudin. <a href="https://cotenfrontend.pl" target="_blank">WTF</a> Cras
@@ -46,32 +44,37 @@
           accumsan.
         </p>
       </article>
-      <article class="my-article">
-        <h3>
-          Nagłówek
-        </h3>
+      <article class="article">
+        <h3 class="article__header">Artykuł drugi</h3>
         <p>
-          test pierwszy
+          Treść artykułu drugiego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
+          dui. Sed est nibh, euismod sagittis ex vel, consequat pulvinar ante. Nulla scelerisque nisl a mi
+          semper consequat. Morbi in tellus ultricies, luctus ante non, egestas justo. Nunc sit amet augue
+          dolor. Donec fermentum bibendum sollicitudin. 
         </p>
       </article>
-      <article>
-        <h3>Nagłowek</h3>
+      <article class="article">
+        <h3 class="article__header">Artykuł trzeci</h3>
         <p>
-          Testowa treść
+          Treść artykułu trzeciego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
+          dui. Sed est nibh, euismod sagittis ex vel, consequat pulvinar ante. Nulla scelerisque nisl a mi
+          semper consequat. Morbi in tellus ultricies, luctus ante non, egestas justo. Nunc sit amet augue
+          dolor. Donec fermentum bibendum sollicitudin. 
         </p>
       </article>
-      <article id="szkolenie">
-        <h3>
-          Git
-        </h3>
+      <article class="article" id="art4">
+        <h3 class="article__header">Artykuł czwarty</h3>
         <p>
-          To jest treść dotycząca gita
+          Treść artykułu czwartego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
+          dui. Sed est nibh, euismod sagittis ex vel, consequat pulvinar ante. Nulla scelerisque nisl a mi
+          semper consequat. Morbi in tellus ultricies, luctus ante non, egestas justo. Nunc sit amet augue
+          dolor. Donec fermentum bibendum sollicitudin. 
         </p>
       </article>
-      <article>
-        <h3>Nagrywanie szkolenia</h3>
+      <article class="article">
+        <h3 class="article__header">Artykuł piąty</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
+          Treść artykułu piątego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac interdum nibh, id pellentesque
           dui. Sed est nibh, euismod sagittis ex vel, consequat pulvinar ante. Nulla scelerisque nisl a mi
           semper consequat. Morbi in tellus ultricies, luctus ante non, egestas justo. Nunc sit amet augue
           dolor. Donec fermentum bibendum sollicitudin. Cras vel bibendum dui. Donec tincidunt aliquet
@@ -80,8 +83,8 @@
       </article>
     </section>
   </main>
-  <footer>
-    <p>Strona domowa &copy; 2023</p>
+  <footer class="page-footer">
+    <p>Stopka &copy; 2023</p>
     <p><a href="#top">Do góry</a></p>
   </footer>
   <script defer src="main.js"></script>
