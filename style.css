@@ -11,6 +11,7 @@ html {
 
 body {
   background: #fefefe;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -41,6 +42,16 @@ h2 {
   background: yellow;
 }
 
+.page-header {
+  font-size: 10px;
+}
+
+.page-header__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 .section {
   padding: 16px;
   background: #cdc1f8;
@@ -48,6 +59,10 @@ h2 {
 
 .section a {
   color: inherit;
+}
+
+.section p {
+  line-height: 1.5;
 }
 
 .article {}
@@ -106,4 +121,8 @@ h2 {
   padding: 5px;
   border-radius: 5px;
   color: black;
+}
+
+.special {
+  color: green;
 }
