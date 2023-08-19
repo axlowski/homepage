@@ -13,6 +13,16 @@ body {
   background: #fefefe;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 h1 {
   color: darkgreen;
 }
@@ -21,9 +31,7 @@ h2 {
   color: #1460AA;
 }
 
-section {
-  background: #cdc1f8;
-}
+
 
 .czerwony {
   color: red;
@@ -33,18 +41,21 @@ section {
   background: yellow;
 }
 
+.section {
+  padding: 16px;
+  background: #cdc1f8;
+}
 
-section a {
+.section a {
   color: inherit;
 }
 
-.article {
-  color: hotpink !important;
+.article {}
+
+.article__header {
+  color: #126e7e;
 }
 
-section {
-  padding: 16px;
-}
 
 .article p {
   background: #1460AA;
@@ -59,7 +70,7 @@ section {
   color: brown;
 }
 
-header {}
+
 
 .navigation {
   padding: 16px;
@@ -76,6 +87,23 @@ header {}
   margin-bottom: 16px;
 }
 
-.section__header {
-  color: #126e7e;
+
+.page-footer {
+  text-align: center;
+}
+
+.section__image {
+  max-width: 100%;
+  display: block;
+}
+
+.page-footer__top-link {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  display: block;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
 }

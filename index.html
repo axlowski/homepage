@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <nav class="navigation">
       <a class="navigation__link" href="index.html">Strona główna</a>
       <a class="navigation__link" href="podstrona.html">Podstrona</a>
@@ -33,7 +33,7 @@
     </section>
     <section class="section">
       <h2 class="section__header">Sekcja druga</h2>
-      <img src="photo.jpg" alt="zdjęcie" />
+      <img class="section__image" src="photo.jpg" alt="zdjęcie" />
       <article class="article">
         <h3 class="article__header">Artykuł pierwszy</h3>
         <p class="czerwony">
@@ -86,12 +86,15 @@
           dolor. Donec fermentum bibendum sollicitudin. Cras vel bibendum dui. Donec tincidunt aliquet
           accumsan.
         </p>
+        <p class="paragraph--js"></p>
       </article>
     </section>
   </main>
   <footer class="page-footer">
-    <p>footer &copy; 2023</p>
-    <p><a href="#top">Do góry</a></p>
+    <div class="page-footer__content">
+      <p>footer &copy; 2023</p>
+      <p><a class="page-footer__top-link" href="#top">Do góry</a></p>
+    </div>
   </footer>
   <script defer src="main.js"></script>
 </body>
